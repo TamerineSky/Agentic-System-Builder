@@ -1,0 +1,135 @@
+{
+  "name": "hr-operations",
+  "version": "1.0.0",
+  "description": "Comprehensive HR and people analytics plugin for workforce planning, attrition prediction, compensation analysis, performance management, and recruiting optimization",
+  "category": "human-resources",
+  "tags": ["hr", "people-analytics", "workforce-planning", "attrition", "compensation", "performance-management", "recruiting", "talent-management"],
+  "agents": [
+    {
+      "name": "workforce-planner",
+      "model": "sonnet",
+      "description": "Workforce planning, headcount forecasting, capacity modeling, and organizational design"
+    },
+    {
+      "name": "attrition-predictor",
+      "model": "sonnet",
+      "description": "Attrition prediction models, retention risk scoring, and intervention strategies"
+    },
+    {
+      "name": "compensation-analyst",
+      "model": "sonnet",
+      "description": "Compensation analysis, market benchmarking, pay equity, and total rewards planning"
+    },
+    {
+      "name": "performance-analytics-agent",
+      "model": "sonnet",
+      "description": "Performance distribution analysis, calibration support, and trend identification"
+    },
+    {
+      "name": "recruiting-efficiency-analyst",
+      "model": "haiku",
+      "description": "Recruiting metrics, funnel analysis, time-to-fill optimization, and quality of hire"
+    }
+  ],
+  "skills": [
+    {
+      "name": "workforce-planning-models",
+      "description": "Workforce planning methodologies, capacity modeling, and scenario analysis techniques"
+    },
+    {
+      "name": "attrition-analysis",
+      "description": "Attrition driver identification, predictive modeling, and retention strategy development"
+    },
+    {
+      "name": "compensation-benchmarking",
+      "description": "Compensation benchmarking methods, market pricing, compa-ratio analysis, and equity modeling"
+    },
+    {
+      "name": "performance-management",
+      "description": "Performance management frameworks, calibration processes, and feedback systems"
+    },
+    {
+      "name": "recruiting-analytics",
+      "description": "Recruiting funnel metrics, source effectiveness, quality of hire measurement"
+    },
+    {
+      "name": "diversity-inclusion-metrics",
+      "description": "D&I metrics, representation analysis, pay equity studies, and inclusion measurement"
+    },
+    {
+      "name": "skills-gap-analysis",
+      "description": "Skills inventory assessment, gap identification, and development planning methodologies"
+    }
+  ],
+  "commands": [
+    {
+      "name": "headcount-plan",
+      "description": "Generate headcount forecast and workforce plan with scenario modeling"
+    },
+    {
+      "name": "attrition-analysis",
+      "description": "Comprehensive attrition trend analysis with driver identification and predictions"
+    },
+    {
+      "name": "compensation-review",
+      "description": "Compensation benchmarking analysis with market comparisons and recommendations"
+    },
+    {
+      "name": "performance-distribution",
+      "description": "Performance rating distribution analysis with calibration insights"
+    },
+    {
+      "name": "recruiting-metrics",
+      "description": "Recruiting funnel analysis with efficiency metrics and optimization recommendations"
+    },
+    {
+      "name": "offer-analysis",
+      "description": "Offer acceptance rate analysis with competitiveness assessment"
+    },
+    {
+      "name": "diversity-report",
+      "description": "Comprehensive diversity and inclusion metrics reporting and analysis"
+    },
+    {
+      "name": "skills-gap-analysis",
+      "description": "Skills gap identification with development recommendations and planning"
+    },
+    {
+      "name": "talent-pipeline",
+      "description": "Talent pipeline health assessment with succession planning insights"
+    },
+    {
+      "name": "retention-analysis",
+      "description": "Retention analysis by cohort and segment with risk identification"
+    }
+  ],
+  "orchestrations": [
+    {
+      "name": "annual-planning",
+      "description": "Annual workforce planning process with headcount, budget, and organizational design"
+    },
+    {
+      "name": "performance-review-cycle",
+      "description": "Performance review and calibration cycle with rating distribution analysis"
+    },
+    {
+      "name": "compensation-planning",
+      "description": "Annual compensation planning and merit increase process with equity analysis"
+    }
+  ],
+  "integrations": [
+    "Workday",
+    "BambooHR",
+    "ADP",
+    "Greenhouse",
+    "Lever",
+    "Workable",
+    "Culture Amp",
+    "15Five",
+    "Lattice",
+    "SuccessFactors"
+  ],
+  "dependencies": [],
+  "author": "Meta Agent Builder",
+  "license": "MIT"
+}
