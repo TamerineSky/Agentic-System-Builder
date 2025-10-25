@@ -1,0 +1,150 @@
+{
+  "name": "finance-operations",
+  "version": "1.0.0",
+  "description": "Comprehensive finance and FP&A operations plugin for budget analysis, forecasting, cost optimization, and financial reporting",
+  "category": "finance",
+  "tags": ["finance", "fpa", "budgeting", "forecasting", "reporting", "cash-flow", "cost-optimization"],
+  "agents": [
+    {
+      "name": "budget-variance-analyst",
+      "model": "sonnet",
+      "description": "Budget variance analysis, trend identification, and variance explanations"
+    },
+    {
+      "name": "financial-forecaster",
+      "model": "sonnet",
+      "description": "Financial forecasting, scenario modeling, and driver-based planning"
+    },
+    {
+      "name": "cost-optimizer",
+      "model": "sonnet",
+      "description": "Cost analysis, optimization opportunities, and spend reduction strategies"
+    },
+    {
+      "name": "financial-reporter",
+      "model": "haiku",
+      "description": "Financial reporting automation, board packages, and executive dashboards"
+    },
+    {
+      "name": "cash-flow-analyst",
+      "model": "sonnet",
+      "description": "Cash flow forecasting, working capital analysis, and liquidity management"
+    },
+    {
+      "name": "fpa-advisor",
+      "model": "sonnet",
+      "description": "FP&A guidance, financial modeling best practices, and strategic planning"
+    }
+  ],
+  "skills": [
+    {
+      "name": "budget-variance-analysis",
+      "description": "Variance analysis methods, root cause identification, and variance categorization"
+    },
+    {
+      "name": "financial-forecasting-methods",
+      "description": "Forecasting techniques, driver-based models, and projection methodologies"
+    },
+    {
+      "name": "cost-allocation",
+      "description": "Cost allocation methodologies, activity-based costing, and overhead distribution"
+    },
+    {
+      "name": "cash-flow-management",
+      "description": "Cash forecasting, working capital optimization, and liquidity analysis"
+    },
+    {
+      "name": "financial-modeling",
+      "description": "Financial modeling best practices, scenario analysis, and model design"
+    },
+    {
+      "name": "scenario-planning",
+      "description": "Scenario development, sensitivity analysis, and Monte Carlo simulation"
+    },
+    {
+      "name": "management-reporting",
+      "description": "Report design, KPI dashboards, and executive summary creation"
+    },
+    {
+      "name": "gaap-ifrs-compliance",
+      "description": "Accounting standards, compliance requirements, and financial statement preparation"
+    }
+  ],
+  "commands": [
+    {
+      "name": "budget-variance",
+      "description": "Perform comprehensive budget variance analysis with root cause identification"
+    },
+    {
+      "name": "financial-forecast",
+      "description": "Generate financial forecasts using driver-based models and trend analysis"
+    },
+    {
+      "name": "cost-analysis",
+      "description": "Analyze cost structures and identify optimization opportunities"
+    },
+    {
+      "name": "cash-flow-projection",
+      "description": "Create detailed cash flow projections and working capital analysis"
+    },
+    {
+      "name": "month-end-close-status",
+      "description": "Track and report month-end close progress and outstanding items"
+    },
+    {
+      "name": "board-package-generate",
+      "description": "Generate comprehensive board reporting packages with executive summaries"
+    },
+    {
+      "name": "scenario-analysis",
+      "description": "Perform scenario and sensitivity analysis for strategic planning"
+    },
+    {
+      "name": "kpi-dashboard",
+      "description": "Generate financial KPI dashboard with key performance metrics"
+    },
+    {
+      "name": "accrual-review",
+      "description": "Review and validate accruals for accuracy and completeness"
+    },
+    {
+      "name": "budget-plan",
+      "description": "Facilitate annual budget planning and allocation process"
+    }
+  ],
+  "orchestrations": [
+    {
+      "name": "month-end-close",
+      "description": "Orchestrated month-end close process workflow with automated checks"
+    },
+    {
+      "name": "quarterly-forecast-update",
+      "description": "Quarterly forecast update cycle with variance analysis and reforecasting"
+    },
+    {
+      "name": "annual-planning",
+      "description": "Annual planning and budgeting process with departmental coordination"
+    },
+    {
+      "name": "board-reporting",
+      "description": "Board reporting preparation workflow with executive summary generation"
+    },
+    {
+      "name": "budget-review",
+      "description": "Budget review and reforecast process with variance explanations"
+    }
+  ],
+  "integrations": [
+    "NetSuite",
+    "SAP",
+    "QuickBooks",
+    "Workday Financials",
+    "Adaptive Insights",
+    "Anaplan",
+    "Excel",
+    "Google Sheets"
+  ],
+  "dependencies": [],
+  "author": "Meta Agent Builder",
+  "license": "MIT"
+}
