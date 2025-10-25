@@ -1,0 +1,59 @@
+{
+  "name": "supply-chain-operations",
+  "source": "./plugins/supply-chain-operations",
+  "description": "Comprehensive supply chain operations plugin providing demand forecasting, inventory optimization, logistics planning, supplier management, quality control, and procurement capabilities for supply chain professionals.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Agentic System Builder",
+    "url": "https://github.com/TamerineSky/Agentic-System-Builder"
+  },
+  "homepage": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "repository": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "license": "MIT",
+  "keywords": [
+    "supply-chain",
+    "operations",
+    "inventory",
+    "logistics",
+    "procurement",
+    "demand-forecasting",
+    "supplier-management",
+    "quality-control"
+  ],
+  "category": "Business Operations",
+  "strict": false,
+  "agents": [
+    "./agents/demand-forecaster",
+    "./agents/inventory-optimizer",
+    "./agents/logistics-planner",
+    "./agents/supplier-relationship-manager",
+    "./agents/quality-control-analyst",
+    "./agents/procurement-advisor"
+  ],
+  "skills": [
+    "./skills/demand-forecasting-methods",
+    "./skills/inventory-optimization",
+    "./skills/logistics-planning",
+    "./skills/supplier-scorecards",
+    "./skills/quality-control",
+    "./skills/procurement-analysis",
+    "./skills/network-optimization",
+    "./skills/risk-assessment",
+    "./skills/cost-analysis",
+    "./skills/scor-framework"
+  ],
+  "commands": [
+    "./commands/demand-forecast",
+    "./commands/inventory-status",
+    "./commands/reorder-calc",
+    "./commands/supplier-scorecard",
+    "./commands/logistics-plan",
+    "./commands/quality-analysis",
+    "./commands/procurement-analysis",
+    "./commands/risk-assessment",
+    "./commands/cost-breakdown",
+    "./commands/stockout-risk",
+    "./commands/abc-analysis",
+    "./commands/lead-time-analysis"
+  ]
+}
