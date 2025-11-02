@@ -1,0 +1,170 @@
+{
+  "name": "marketing-operations",
+  "displayName": "Marketing Operations",
+  "version": "1.0.0",
+  "description": "Comprehensive marketing operations plugin for campaign analysis, content performance, lead scoring, funnel optimization, attribution modeling, and budget allocation",
+  "author": "Agentic System Builder",
+  "category": "Business Operations",
+  "keywords": [
+    "marketing",
+    "campaigns",
+    "attribution",
+    "ROI",
+    "lead scoring",
+    "funnel optimization",
+    "content analytics",
+    "budget optimization",
+    "marketing ops"
+  ],
+  "agents": [
+    {
+      "name": "campaign-roi-analyzer",
+      "model": "sonnet",
+      "description": "Campaign ROI analysis, attribution, and performance metrics expert"
+    },
+    {
+      "name": "content-performance-analyst",
+      "model": "sonnet",
+      "description": "Content analytics, engagement metrics, and SEO performance specialist"
+    },
+    {
+      "name": "lead-scoring-engine",
+      "model": "sonnet",
+      "description": "Lead scoring models, MQL identification, and propensity modeling expert"
+    },
+    {
+      "name": "marketing-funnel-optimizer",
+      "model": "sonnet",
+      "description": "Funnel analysis, conversion optimization, and drop-off mitigation specialist"
+    },
+    {
+      "name": "attribution-analyst",
+      "model": "sonnet",
+      "description": "Multi-touch attribution, channel impact, and credit allocation expert"
+    },
+    {
+      "name": "marketing-budget-optimizer",
+      "model": "sonnet",
+      "description": "Budget allocation, channel ROI, and spend optimization specialist"
+    }
+  ],
+  "skills": [
+    {
+      "name": "attribution-modeling",
+      "category": "Analytics",
+      "description": "Multi-touch, first/last, and custom attribution models"
+    },
+    {
+      "name": "campaign-performance-analysis",
+      "category": "Analytics",
+      "description": "Campaign metrics, A/B testing, and optimization techniques"
+    },
+    {
+      "name": "content-analytics",
+      "category": "Content",
+      "description": "Content performance, engagement, and SEO metrics analysis"
+    },
+    {
+      "name": "lead-scoring-models",
+      "category": "Lead Management",
+      "description": "Scoring frameworks, predictive models, and calibration"
+    },
+    {
+      "name": "funnel-optimization",
+      "category": "Conversion",
+      "description": "Funnel analysis, CRO, and drop-off mitigation"
+    },
+    {
+      "name": "budget-allocation",
+      "category": "Planning",
+      "description": "Budget optimization, channel mix, and ROI maximization"
+    },
+    {
+      "name": "ab-testing-methodology",
+      "category": "Testing",
+      "description": "Test design, statistical significance, and analysis"
+    },
+    {
+      "name": "marketing-mix-modeling",
+      "category": "Analytics",
+      "description": "MMM techniques, media impact, and optimization"
+    }
+  ],
+  "commands": [
+    {
+      "name": "campaign-performance",
+      "description": "Analyze campaign performance across all channels"
+    },
+    {
+      "name": "content-analysis",
+      "description": "Analyze content performance and engagement"
+    },
+    {
+      "name": "lead-scoring-update",
+      "description": "Update lead scoring criteria and models"
+    },
+    {
+      "name": "funnel-analysis",
+      "description": "Analyze marketing funnel performance"
+    },
+    {
+      "name": "attribution-report",
+      "description": "Generate attribution analysis report"
+    },
+    {
+      "name": "budget-optimization",
+      "description": "Optimize budget allocation across channels"
+    },
+    {
+      "name": "channel-performance",
+      "description": "Analyze specific channel performance"
+    },
+    {
+      "name": "cac-analysis",
+      "description": "Analyze customer acquisition cost trends"
+    },
+    {
+      "name": "marketing-roi",
+      "description": "Calculate marketing ROI by campaign/channel"
+    },
+    {
+      "name": "mql-analysis",
+      "description": "Analyze MQL generation and conversion"
+    }
+  ],
+  "orchestrations": [
+    {
+      "name": "campaign-launch",
+      "description": "Complete campaign planning to execution workflow"
+    },
+    {
+      "name": "monthly-marketing-review",
+      "description": "Comprehensive monthly performance review"
+    },
+    {
+      "name": "lead-handoff-process",
+      "description": "Lead scoring to sales handoff workflow"
+    },
+    {
+      "name": "quarterly-planning",
+      "description": "Quarterly marketing planning and budgeting"
+    }
+  ],
+  "integrations": [
+    "Google Ads",
+    "Meta Ads Manager",
+    "LinkedIn Campaign Manager",
+    "Google Analytics 4",
+    "Adobe Analytics",
+    "HubSpot",
+    "Marketo",
+    "Salesforce",
+    "Pardot",
+    "Google Search Console",
+    "SEMrush",
+    "Ahrefs"
+  ],
+  "requirements": {
+    "minClaudeVersion": "3.5"
+  }
+}

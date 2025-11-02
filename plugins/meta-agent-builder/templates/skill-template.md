@@ -1,0 +1,66 @@
+---
+name: {{SKILL_NAME}}
+description: {{DESCRIPTION}}. Use when {{WHEN_TO_USE_CLAUSE}}.
+---
+
+# {{SKILL_TITLE}}
+
+{{SKILL_OVERVIEW}}
+
+## When to Use This Skill
+
+{{WHEN_TO_USE_LIST}}
+
+## Core Concepts
+
+### 1. {{CONCEPT_1_TITLE}}
+{{CONCEPT_1_DESCRIPTION}}
+
+### 2. {{CONCEPT_2_TITLE}}
+{{CONCEPT_2_DESCRIPTION}}
+
+### 3. {{CONCEPT_3_TITLE}}
+{{CONCEPT_3_DESCRIPTION}}
+
+## Quick Start
+
+{{QUICK_START_CODE_EXAMPLE}}
+
+## {{MAIN_SECTION_TITLE}}
+
+### Pattern 1: {{PATTERN_1_TITLE}}
+{{PATTERN_1_DESCRIPTION}}
+
+```{{CODE_LANGUAGE}}
+{{PATTERN_1_CODE}}
+```
+
+### Pattern 2: {{PATTERN_2_TITLE}}
+{{PATTERN_2_DESCRIPTION}}
+
+```{{CODE_LANGUAGE}}
+{{PATTERN_2_CODE}}
+```
+
+### Pattern 3: {{PATTERN_3_TITLE}}
+{{PATTERN_3_DESCRIPTION}}
+
+```{{CODE_LANGUAGE}}
+{{PATTERN_3_CODE}}
+```
+
+## {{ADVANCED_SECTION_TITLE}}
+
+{{ADVANCED_CONTENT}}
+
+## Resources
+
+{{RESOURCES_LIST}}
+
+## Best Practices
+
+{{BEST_PRACTICES_LIST}}
+
+## Common Pitfalls
+
+{{COMMON_PITFALLS_LIST}}

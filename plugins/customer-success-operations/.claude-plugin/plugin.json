@@ -1,0 +1,56 @@
+{
+  "name": "customer-success-operations",
+  "source": "./plugins/customer-success-operations",
+  "description": "Comprehensive customer success operations plugin providing customer health scoring, churn prediction, expansion opportunity identification, customer segmentation, NPS analysis, and CSM performance tracking for customer success teams.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Agentic System Builder",
+    "url": "https://github.com/TamerineSky/Agentic-System-Builder"
+  },
+  "homepage": "https://github.com/TamerineSky/Agentic-System-Builder/tree/master/plugins/customer-success-operations",
+  "repository": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "license": "MIT",
+  "keywords": [
+    "customer-success",
+    "health-score",
+    "churn-prediction",
+    "expansion",
+    "nps",
+    "csm",
+    "retention",
+    "renewal",
+    "arr",
+    "grr",
+    "nrr"
+  ],
+  "category": "Business Operations",
+  "strict": false,
+  "agents": [
+    "./agents/customer-health-scorer",
+    "./agents/churn-predictor",
+    "./agents/expansion-opportunity-identifier",
+    "./agents/customer-segmentation-analyst",
+    "./agents/csm-performance-analyzer"
+  ],
+  "skills": [
+    "./skills/customer-health-scoring",
+    "./skills/churn-prediction-models",
+    "./skills/expansion-analysis",
+    "./skills/segmentation-methods",
+    "./skills/nps-analysis",
+    "./skills/engagement-scoring",
+    "./skills/customer-journey-mapping"
+  ],
+  "commands": [
+    "./commands/health-score",
+    "./commands/churn-risk-list",
+    "./commands/expansion-opportunities",
+    "./commands/nps-analysis",
+    "./commands/customer-segments",
+    "./commands/engagement-report",
+    "./commands/csm-performance",
+    "./commands/account-review-prep",
+    "./commands/renewal-forecast",
+    "./commands/escalation-analysis"
+  ]
+}

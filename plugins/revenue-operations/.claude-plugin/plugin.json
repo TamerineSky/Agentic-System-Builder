@@ -1,0 +1,57 @@
+{
+  "name": "revenue-operations",
+  "source": "./plugins/revenue-operations",
+  "description": "Comprehensive revenue operations plugin providing sales pipeline analysis, revenue forecasting, deal risk management, quota tracking, territory optimization, and sales operations automation for revenue teams.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Agentic System Builder",
+    "url": "https://github.com/TamerineSky/Agentic-System-Builder"
+  },
+  "homepage": "https://github.com/TamerineSky/Agentic-System-Builder/tree/master/plugins/revenue-operations",
+  "repository": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "license": "MIT",
+  "keywords": [
+    "revenue",
+    "sales",
+    "forecasting",
+    "pipeline",
+    "quota",
+    "territory",
+    "deals",
+    "revenue-operations",
+    "sales-ops",
+    "crm"
+  ],
+  "category": "Business Operations",
+  "strict": false,
+  "agents": [
+    "./agents/sales-pipeline-analyst",
+    "./agents/revenue-forecaster",
+    "./agents/deal-risk-analyzer",
+    "./agents/sales-ops-automator",
+    "./agents/quota-performance-tracker",
+    "./agents/territory-planning-advisor"
+  ],
+  "skills": [
+    "./skills/pipeline-health-analysis",
+    "./skills/revenue-forecasting-methods",
+    "./skills/deal-scoring-models",
+    "./skills/sales-forecasting",
+    "./skills/crm-integration-patterns",
+    "./skills/commission-calculations",
+    "./skills/territory-optimization",
+    "./skills/win-loss-analysis"
+  ],
+  "commands": [
+    "./commands/pipeline-review",
+    "./commands/revenue-forecast",
+    "./commands/deal-risk-analysis",
+    "./commands/quota-status",
+    "./commands/territory-analysis",
+    "./commands/commission-calc",
+    "./commands/win-loss-analysis",
+    "./commands/forecast-accuracy",
+    "./commands/rep-performance",
+    "./commands/pipeline-cleanup"
+  ]
+}

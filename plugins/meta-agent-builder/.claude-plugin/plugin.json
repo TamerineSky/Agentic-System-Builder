@@ -1,0 +1,46 @@
+{
+  "name": "meta-agent-builder",
+  "version": "1.0.0",
+  "description": "Self-building agentic system that generates complete plugins, agents, skills, commands, and orchestrations from business requirements. The meta-system that builds other systems.",
+  "author": "Agentic System Builder",
+  "homepage": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "repository": "https://github.com/TamerineSky/Agentic-System-Builder",
+  "license": "MIT",
+  "keywords": [
+    "meta-agent",
+    "plugin-generator",
+    "agent-builder",
+    "business-operations",
+    "automation",
+    "agentic-systems",
+    "revenue-operations",
+    "supply-chain",
+    "marketing-operations",
+    "finance-operations"
+  ],
+  "category": "Development Tools",
+  "agents": [
+    "./agents/domain-analyzer",
+    "./agents/agent-generator",
+    "./agents/skill-builder",
+    "./agents/command-composer",
+    "./agents/orchestration-designer",
+    "./agents/integration-architect",
+    "./agents/plugin-validator"
+  ],
+  "skills": [
+    "./skills/meta-plugin-patterns",
+    "./skills/agent-creation-patterns",
+    "./skills/skill-development-patterns",
+    "./skills/orchestration-templates"
+  ],
+  "commands": [
+    "./commands/generate-plugin",
+    "./commands/generate-agent",
+    "./commands/generate-skill",
+    "./commands/generate-command",
+    "./commands/generate-orchestration",
+    "./commands/validate-plugin",
+    "./commands/optimize-plugin"
+  ]
+}

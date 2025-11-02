@@ -1,0 +1,27 @@
+{
+  "name": "{{PLUGIN_NAME}}",
+  "source": "./plugins/{{PLUGIN_NAME}}",
+  "description": "{{PLUGIN_DESCRIPTION}}",
+  "version": "{{VERSION}}",
+  "author": {
+    "name": "{{AUTHOR_NAME}}",
+    "url": "{{AUTHOR_URL}}"
+  },
+  "homepage": "{{HOMEPAGE_URL}}",
+  "repository": "{{REPOSITORY_URL}}",
+  "license": "{{LICENSE}}",
+  "keywords": [
+    {{KEYWORDS}}
+  ],
+  "category": "{{CATEGORY}}",
+  "strict": false,
+  "commands": [
+    {{COMMANDS_ARRAY}}
+  ],
+  "agents": [
+    {{AGENTS_ARRAY}}
+  ],
+  "skills": [
+    {{SKILLS_ARRAY}}
+  ]
+}
